@@ -20,7 +20,7 @@ async def update(_, message: Message):
     os.system("git pull")
     LOGGER(__name__).info("Bot Updated with latest commits. Restarting now..")
     await msg.edit("Changes pulled with latest commits. Restarting bot now... ")
-    os.execl(sys.executable, sys.executable, "-m", "TelegramBot")
+    os.execl(sys.executable, sys.executable, "-m", "functions")
 
 
 @Client.on_message(filters.command("restart") & dev_cmd)
