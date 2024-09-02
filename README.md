@@ -87,13 +87,13 @@
 ---
 
 ### **`🌴 COLABORADORES`**
-- [**`DevDiego`**](github.com/Dev-Diego)
-- [**`DavidChian`**](github.com/David-Chian)
-- [**`AzamiJs`**](github.com/AzamiJs)
+- [**`DevDiego`**](https://github.com/Dev-Diego)
+- [**`DavidChian`**](https://github.com/David-Chian)
+- [**`AzamiJs`**](https://github.com/AzamiJs)
 
 ### **`👑 PROPIETARIO`**
-- [**`DevDiego`**](github.com/Dev-Diego)
+- [**`DevDiego`**](https://github.com/Dev-Diego)
 
 ### **`☁️ CREDITOS`**
-- [**`DevDiego`**](github.com/Dev-Diego)
-- [**`DavidChian`**](github.com/David-Chian)
+- [**`DevDiego`**](https://github.com/Dev-Diego)
+- [**`DavidChian`**](https://github.com/David-Chian)
