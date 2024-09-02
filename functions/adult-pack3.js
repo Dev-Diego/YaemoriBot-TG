@@ -15,7 +15,7 @@ async function pack3(message) {
     }
             try {
                 const url = global.pack3[Math.floor(Math.random() * global.pack3.length)]; // Acceder directamente al arreglo global.pack3
-                await ctx.replyWithPhoto(url, { caption: '_🥵 /pack3 🥵_' }); // Enviar directamente la URL como argumento
+                await ctx.replyWithPhoto(url, { caption: '🥵 /pack3 🥵' }); // Enviar directamente la URL como argumento
             } catch (error) {
                 dc.warn('❌ Debe ser el enlace de pack');
             }
