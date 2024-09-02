@@ -25,6 +25,13 @@
 
 </details>
 
+<details>
+ <summary><b> 🚩 Instalación </b></summary>
+
+> 🌺 Si instalas el bot en hosting como CorinPlus, o CodeSpace ve al archivo .evn y cambia ek token actual que está al token que te da el BotFather en Telegram. 🌸
+
+</details>
+
 
 ---
 
