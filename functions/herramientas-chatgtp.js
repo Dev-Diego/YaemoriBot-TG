@@ -5,7 +5,7 @@ const DC = require("../global");
 const logCommand = require("../log/logcommand");
 
 async function chatgpt() {
-    DC.command(['chatgpt', 'ia', 'kotori'], async (ctx) => {
+    DC.command(['chatgpt', 'ia', 'yaemori'], async (ctx) => {
         logCommand(ctx);
         const userText = ctx.message.text.slice(['chatgpt', 'ia', 'kotori'].length + 1).trim();
         if (!userText) {
