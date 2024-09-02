@@ -38,6 +38,8 @@
 
 > • TOKEN="Aquí Token que te da BotFather"
 
+![TokenImg](https://telegra.ph/file/0da9173442f5744105762.jpg)
+
 > 🌺 El token puedes cambiarlo en el archivo .env 🌸
 
 > 🌺 Si usas Termux, CloudShell entre otros puedes clonar el repositorio y editar la parte .env y coloca el token actual que te da el BotFarher en telegram. Y ya puedes instalar el Bot telegram. 🌸
