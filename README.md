@@ -26,6 +26,29 @@
 
 ---
 
+#### **`💣 Instalación por cloudshell`**
+
+<details>
+ <summary><b> 🦎 Comandos</b></summary>
+
+[`🚩 Instalar Cloud Shell Clic Aqui`](https://www.mediafire.com/file/bp2l6cci2p30hjv/Cloud+Shell_1.apk/file)
+
+```bash
+> git clone https://github.com/Dev-Diego/YaemoriBot-TG
+```
+
+```bash
+> cd YaemoriBot-TG && yarn install
+```
+
+```bash
+> npm start
+```
+
+</details>
+
+---
+
 ### **`☁️ CORINPLUS HOTS`**
 <a href="https://dash.corinplus.com"><img src="https://qu.ax/ZycD.png" height="125px"></a>
 
