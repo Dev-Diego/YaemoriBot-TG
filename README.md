@@ -34,7 +34,7 @@
 
 > • TOKEN="7219331778:AAHUf5uHK5vRkkSrOAmd9-7IdRJ1xZHm5fY"
 
-> 🔥 Edita la parte de token y cambialo a tu token de telegram:
+> 🔥 Edita la parte donde está el token del bot de Tg y cambialo a tu token de telegram:
 
 > • TOKEN="Aquí Token que te da BotFather"
 
