@@ -87,5 +87,5 @@
 ---
 
 ### **`AGRADECIMIENTOS 🌟`**
-- [**`DevDiego`**](https://github.com/Dev-Diego)
-- [**`DavidChian`**](https://github.com/David-Chian)
+- [**`@DevDiego`**](https://github.com/Dev-Diego)
+- [**`@DavidChian`**](https://github.com/David-Chian)
