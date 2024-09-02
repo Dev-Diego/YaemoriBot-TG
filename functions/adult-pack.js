@@ -13,7 +13,7 @@ DC.command('pack', async (ctx) => {
     }
     try {
         const url = global.pack[Math.floor(Math.random() * global.pack.length)];
-        await ctx.replyWithPhoto(url, { caption: '_🥵 /pack 🥵_' });
+        await ctx.replyWithPhoto(url, { caption: '🥵 /pack 🥵' });
     } catch (error) {
         dc.error('Error al enviar la foto:', error);
         ctx.reply('Ocurrió un error al procesar tu solicitud. Por favor, inténtalo de nuevo más tarde.');
