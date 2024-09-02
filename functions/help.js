@@ -25,7 +25,7 @@ async function loading(ctx, response) {
         "🌸 Enviando el menú... 👑"
     ];*/
     
- //  const message = await ctx.reply('Aguarde', { mentions: ctx.message });
+   const message = await ctx.reply('Aguarde', { mentions: ctx.message });
 
     for (let i = 0; i < hawemod.length; i++) {
         await new Promise(resolve => setTimeout(resolve, 1000));
@@ -43,7 +43,7 @@ async function helper(ctx) {
             try {
                 const diff = Date.now() - startTime;
         const uptime = clockString(diff);
-                const loadingMessage = await ctx.reply(`Hola ${ctx.message.from.username}, enviando menú...`);
+                /* const loadingMessage = await ctx.reply(`Hola ${ctx.message.from.username}, enviando menú...`); */
                 const imageUrl = 'https://telegra.ph/file/65d33e1257607d4b05a1c.jpg?raw=true';
                 const caption = `
 © mᥱᥒᥙ ᥆𝖿іᥴіᥲᥣ ძᥱ ᥡᥲᥱm᥆rіᑲ᥆𝗍 ☁️
