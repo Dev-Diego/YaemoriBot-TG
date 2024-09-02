@@ -8,13 +8,13 @@ async function creador() {
         const imageUrl = 'https://telegra.ph/file/b3002196ad8768914d809.jpg';
 
         const caption = `╭━━━━━━･❪ ❁ ❫ ･━━━━━━
-│➸ `Mi Creador es`
+│➸ \`Mi Creador es\`
 │➸ @Oficial_Diego
 │➸ https://t.me/Oficial_Diego
 │
 │•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•
 │
-│➸ `Mi colaborador principal`
+│➸ \`Mi colaborador principal\`
 │➸ @DavidChian
 │
 │•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•
