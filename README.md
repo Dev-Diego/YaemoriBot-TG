@@ -19,7 +19,7 @@
 <details>
  <summary><b> 🚩 Donde Instalo El Bot? </b></summary>
 
-> 🌺 Para instalar el bot te invito que uses el hosting *``CorinPlus Host`** el hosting es 100% confiable que esperas para usarlo?, unete ya a nuestra comunidad!!! 🌸
+> 🌺 Para instalar el bot te invito que uses el hosting **`CorinPlus Host`** el hosting es 100% confiable que esperas para usarlo?, unete ya a nuestra comunidad!!! 🌸
 
 </details>
 
