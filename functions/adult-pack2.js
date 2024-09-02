@@ -15,7 +15,7 @@ async function pack2(message) {
     }
             try {
                 const url = global.pack2[Math.floor(Math.random() * global.pack2.length)]; 
-                await ctx.replyWithPhoto(url, { caption: '_🥵 /pack2 🥵_' }); 
+                await ctx.replyWithPhoto(url, { caption: '🥵 /pack2 🥵' }); 
             } catch (error) {
                 dc.warn('❌ Debe ser el enlace de pack');
             }
