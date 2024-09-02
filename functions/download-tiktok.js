@@ -23,11 +23,7 @@ async function tiktok() {
         if (textResponse.status && textResponse.result) {
           const result = textResponse.result;
           const videoUrl = result.video;
-          const message = `
-𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗖𝗜𝗢𝗡
-
-𝗡𝗼𝗺𝗯𝗿𝗲 𝗱𝗲 𝘂𝘀𝘂𝗮𝗿𝗶𝗼: ${result.username}
-𝗗𝗲𝘀𝗰𝗿𝗶𝗽𝗰𝗶𝗼𝗻: ${result.description}`;
+          const message = `👑 Tu video.. ✨️`;
           await ctx.telegram.editMessageText(ctx.chat.id, downloadingMessage.message_id, null, 'Comoletado disfrute del video.');
           ctx.replyWithVideo({ url: videoUrl }, { caption: message });
         } else {
