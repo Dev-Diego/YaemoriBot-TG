@@ -1,4 +1,4 @@
-case 'update':
+/*case 'update':
 case 'actualizar':
 case 'gitpull':
 if (!isCreator) {
@@ -35,4 +35,4 @@ errorMessage2 += '\nMensaje de error: ' + error.message
 await m.reply(errorMessage2)
 }
 }
-break
+break*/
