@@ -94,3 +94,7 @@
 ### **`👑 PROPIETARIO`**
 <a
 href="https://github.com/Dev-Diego"><img src="https://github.com/Dev-Diego.png" width="130" height="130" alt="OfcDiego"/></a>
+
+### **`☁️ CREDITOS`**
+- [**`DevDiego`**](github.com/Dev-Diego)
+- [**`DavidChian`**](github.com/David-Chian)
