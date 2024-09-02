@@ -7,4 +7,6 @@
 > 💋 Este bot es unicamente disponible para Telegram. 💫
 
 > 🦈 Donde lo puedo hostear?, puedes hostear en nuestra plataforma: CorinPlus Hosting, compra coins y arquiere el mejor servidor para asi puedas usar el bot sin bugs. ✨️
+
+> 🌺 Los pasos de instalación de este bot es muy facil. 📚
 ```
