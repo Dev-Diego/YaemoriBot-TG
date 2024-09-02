@@ -15,7 +15,7 @@ async function videosxxxc(message) {
     }
             try {
                 const url = global.videosxxxc[Math.floor(Math.random() * global.videosxxxc.length)]; // Acceder directamente al arreglo global.videosxxxc
-                await ctx.replyWithVideo(url, { caption: '_🥵 /videosxxxc 🥵_' }); // Enviar directamente la URL como argumento
+                await ctx.replyWithVideo(url, { caption: '🥵 /videosxxxc 🥵' }); // Enviar directamente la URL como argumento
             } catch (error) {
                 cx.warn('❌ Debe ser el enlace de pack');
             }
