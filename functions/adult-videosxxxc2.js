@@ -15,7 +15,7 @@ async function videosxxxc2(message) {
     }
             try {
                 const url = global.videosxxxc2[Math.floor(Math.random() * global.videosxxxc2.length)]; 
-                await ctx.replyWithVideo(url, { caption: '_🥵 /videosxxxc2 🥵_' }); 
+                await ctx.replyWithVideo(url, { caption: '🥵 /videosxxxc2 🥵' }); 
             } catch (error) {
                 cx.warn('❌ Debe ser el enlace de pack');
             }
