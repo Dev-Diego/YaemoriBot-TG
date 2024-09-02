@@ -36,7 +36,9 @@
 
 > 🔥 Edita la parte de token y cambialo a tu token de telegram:
 
-> • TOKEN="Aquí Token que te sa BotFather"
+> • TOKEN="Aquí Token que te da BotFather"
+
+> 🌺 El token puedes cambiarlo en el archivo .evn 🌸
 
 > 🌺 Si usas Termux, CloudShell entre otros puedes clonar el repositorio y editar la parte .evn y coloca el token actual que te da el BotFarher en telegram. Y ya puedes instalar el Bot telegram. 🌸
 
