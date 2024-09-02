@@ -86,14 +86,6 @@
 
 ---
 
-### **`🌴 COLABORADORES`**
-- [**`DevDiego`**](https://github.com/Dev-Diego)
-- [**`DavidChian`**](https://github.com/David-Chian)
-- [**`AzamiJs`**](https://github.com/AzamiJs)
-
-### **`👑 PROPIETARIO`**
-- [**`DevDiego`**](https://github.com/Dev-Diego)
-
-### **`☁️ CREDITOS`**
+### **`AGRADECIMIENTOS 🌟`**
 - [**`DevDiego`**](https://github.com/Dev-Diego)
 - [**`DavidChian`**](https://github.com/David-Chian)
