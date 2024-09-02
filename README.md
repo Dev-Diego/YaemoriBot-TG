@@ -10,7 +10,7 @@
 ### **`✨️ INFORMACIÓN`**
 
 <details>
- <summary><b>:paperclip: InfoBot 🚩</b></summary>
+ <summary><b> 🚩 InfoBot </b></summary>
 
 > 🌺 Este bot es solo funcional en la plataforma de Telegram, si quieres instalar el bot edita la parte .env y cambias el token al token del bot de telegram 🌸
 
