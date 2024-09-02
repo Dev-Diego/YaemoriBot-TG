@@ -9,9 +9,14 @@ const goodbyeStickerPath = path.join('/home/container/src/bye.webp');
 
 DC.on('new_chat_members', async (ctx) => {
     const newUser = ctx.message.new_chat_member;
-    const welcomeMessage = `Hola @${newUser.username || newUser.first_name} Bienvenido al grupo`;
+    const welcomeMessage = `┌─★ 𝚈𝚊𝚎𝚖𝚘𝚛𝚒𝙱𝚘𝚝-𝙼𝙳 🌱 
+│「 𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗼 ☁ 」
+└┬★ 「 @${newUser.username || newUser.first_name} 」
+ │🌺  𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗼/𝗮
+ │🌺  ${groupMetadata.subject}
+ └───────────────┈ ⳹`;
 
-    let welcomePhoto = 'https://telegra.ph/file/463f16729bffb12ca9525.jpg'; 
+    let welcomePhoto = 'https://telegra.ph/file/89f5d91864bb5d02f50cd.jpg'; 
     if (newUser.photo && newUser.photo.length > 0) {
         const photoFileId = newUser.photo[newUser.photo.length - 1].file_id;
         welcomePhoto = await ctx.telegram.getFileLink(photoFileId);
@@ -32,9 +37,14 @@ DC.on('new_chat_members', async (ctx) => {
 
 DC.on('left_chat_member', async (ctx) => {
     const leftUser = ctx.message.left_chat_member;
-    const goodbyeMessage = `El usuario @${leftUser.username || leftUser.first_name} Salio recientemente del grupo`;
+    const goodbyeMessage = `┌─★ 𝚈𝚊𝚎𝚖𝚘𝚛𝚒𝙱𝚘𝚝-𝙼𝙳 🌱 
+│「 𝗔𝗗𝗜𝗢𝗦 🌸 」
+└┬★ 「 @${leftUser.username || leftUser.first_name} 」   
+ │🌺  𝗦𝗲 𝗳𝘂𝗲  
+ │🌺 𝗡𝘂𝗻𝗰𝗮 𝘁𝗲 𝗾𝘂𝗶𝘀𝗶𝗺𝗼𝘀 𝗮𝗾𝘂𝗶
+ └───────────────┈ ⳹`;
 
-    let goodbyePhoto = 'https://telegra.ph/file/69a02dc67119e535849f3.jpg'; 
+    let goodbyePhoto = 'https://telegra.ph/file/b5a775dd27714fdeaee57.jpg'; 
     if (leftUser.photo && leftUser.photo.length > 0) {
         const photoFileId = leftUser.photo[leftUser.photo.length - 1].file_id;
         goodbyePhoto = await ctx.telegram.getFileLink(photoFileId); 
