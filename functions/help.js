@@ -52,7 +52,7 @@ async function helper(ctx) {
 ┃╭──────────────────╸
 ┃│ ✧ 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗖𝗜𝗢𝗡 ✧
 ┃│
-┃│「🌱」 𝐂𝐫𝐞𝐚𝐝𝐨𝐫: DecDiego
+┃│「🌱」 𝐂𝐫𝐞𝐚𝐝𝐨𝐫: DevDiego
 ┃│「💫」 𝐍𝐮𝐦𝐞𝐫𝐨: https://t.me/Oficial_Diego
 ┃│「🕒」 𝐀𝐜𝐭𝐢𝐯𝐢𝐝𝐚𝐝: ${uptime}
 ┃│「🌴」 𝐆𝐫𝐮𝐩𝐨: https://t.me/YaemoriGrupo
