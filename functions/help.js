@@ -21,11 +21,11 @@ const week = d.toLocaleDateString(locale, {weekday: 'long'});
 const date = d.toLocaleDateString(locale, {day: 'numeric', month: 'long', year: 'numeric'});
 const userCount = Object.keys(userData).length;
 async function loading(ctx, response) {
-    const hawemod = [
+    /*const hawemod = [
         "🌸 Enviando el menú... 👑"
-    ];
+    ];*/
     
-   const message = await ctx.reply('Aguarde', { mentions: ctx.message });
+ //  const message = await ctx.reply('Aguarde', { mentions: ctx.message });
 
     for (let i = 0; i < hawemod.length; i++) {
         await new Promise(resolve => setTimeout(resolve, 1000));
