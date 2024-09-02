@@ -1,7 +1,7 @@
 {
-  "name": "kotori_ultra_bot",
-  "version": "1.1.4",
-  "description": "Bot desarrollado por David Chian",
+  "name": "yaemoribot-tg",
+  "version": "2.0.2",
+  "description": "Super bot telegram",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Yukyshiram/Sumireko_Usami_Bot.git"
+    "url": "git+https://github.com/Dev-Diego/YaemoriBot-TG.git"
   },
   "keywords": [
     "Bot",
@@ -17,12 +17,12 @@
     "NodeJS",
     "Boxmine"
   ],
-  "author": "DavidChian",
+  "author": "DevDiego",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Yukyshiram/Sumireko_Usami_Bot/issues"
+    "url": "https://github.com/Dev-Diego/YaemoriBot-TG/issues"
   },
-  "homepage": "https://github.com/Yukyshiram/Sumireko_Usami_Bot#readme",
+  "homepage": "https://github.com/Dev-Diego/YaemoriBot-TG#readme",
   "dependencies": {
     "@bochilteam/scraper": "^4.2.4",
     "@vitalets/google-translate-api": "^8.0.0",
