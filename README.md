@@ -28,7 +28,9 @@
 <details>
  <summary><b> 🚩 Instalación </b></summary>
 
-> 🌺 Si instalas el bot en hosting como CorinPlus, o CodeSpace ve al archivo .evn y cambia ek token actual que está al token que te da el BotFather en Telegram. 🌸
+> 🌺 Si instalas el bot en hosting como CorinPlus, o CodeSpace ve al archivo .evn y cambia el token actual que está al token que te da el BotFather en Telegram. 🌸
+
+> 🌺 Si usas Termux, CloudShell entre otros puedes clonar el repositorio y edita la parte .evn y colocar el token  actual que te da el BotFarher en telegram. Y ya puedes instalar el Bot telegram. 🌸
 
 </details>
 
