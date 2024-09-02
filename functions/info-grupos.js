@@ -5,21 +5,21 @@ async function grupos() {
    DC.command(['grupos', 'ofcgrupos', 'gruposofc'], async (ctx) => {
         logCommand(ctx);
         
-        const imageUrl = 'https://telegra.ph/file/c0f83dc304a53ca9dfbf2.jpg?raw=true';
+        const imageUrl = 'https://telegra.ph/file/c877b29d1ac82356f239e.jpg?raw=true';
 
-        const caption = `📍 GRUPO OFICIAL
+        const caption = `*Hola!, te invito a unirte a los grupos oficiales de del Bot para convivir con la comunidad :D* 🍂
 
-		Telegram
- Hentai Company
-┃🧸❏ https://t.me/Kotori_OFC
+1- YaemoriBot 🍭
+*✰* https://t.me/YaemoriGrupo
 
-		Whatsapp
- Hentai Company
-┃🧸❏ https://chat.whatsapp.com/H5bw4MJucS1BBHnZ9wv3vI
-   
- Grupo de antojar 3.0
-┃🧸❏ https://chat.whatsapp.com/IQUaNCewDirKfJaOIsOxfR
-╰━━━━━━━━━━━━━━━━⊜ `;
+─ׄ─ׄ⭒─ׄ─ׅ─ׄ⭒─ׄ─ׅ─ׄ⭒─ׄ─ׅ─ׄ⭒─ׄ─ׅ─ׄ⭒─ׄ─ׄ
+
+➠ Enlace anulado? entre aquí! 
+
+♡ Canal :
+*✰* https://t.me/YaemoriChannel
+
+> © ⍴᥆ᥕᥱrᥱძ ᑲᥡ sᥙᥒᥣіgһ𝗍 𝗍ᥱᥲm`;
 
 ctx.replyWithPhoto({ url: imageUrl }, { caption: caption });
     });
