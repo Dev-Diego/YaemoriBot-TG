@@ -7,6 +7,18 @@
 
 ---
 
+### **`✨️ INFORMACIÓN`**
+
+<details>
+ <summary><b>:paperclip: InfoBot 🚩</b></summary>
+
+> 🌺 Este bot es solo funcional en la plataforma de Telegram, si quieres instalar el bot edita la parte .env y cambias el token al token del bot de telegram 🌸
+
+</details>
+
+
+---
+
 ### **`☁️ CORINPLUS HOTS`**
 <a href="https://dash.corinplus.com"><img src="https://qu.ax/ZycD.png" height="125px"></a>
 
