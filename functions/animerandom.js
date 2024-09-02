@@ -17,7 +17,7 @@ async function animerandom(message) {
                     const animeimg = haber.CharacterImage;
                     const japaname = haber.CharacterJapaneseName;
     
-                    ctx.replyWithPhoto({ url: animeimg }, { caption: `🪻 **Personaje Random** 🪻\n\n🪻 **Anime** 🪻\n${animename}\n\n🪻 **Personaje** 🪻\n${name}\n\n🪻 **Jap** 🪻\n${japaname}\n\n /ranomanime   /help  /rw` });
+                    ctx.replyWithPhoto({ url: animeimg }, { caption: `🪻 Personaje Random 🪻\n\n🪻 Anime 🪻\n${animename}\n\n🪻 Personaje 🪻\n${name}\n\n🪻 Jap 🪻\n${japaname}\n\n /ranomanime   /help  /rw` });
                     
                 } catch (error) {
                     dc.warn('❌ debe ser el link de animerandom')
