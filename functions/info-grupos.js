@@ -10,14 +10,14 @@ async function grupos() {
         const caption = `*Hola!, te invito a unirte a los grupos oficiales de del Bot para convivir con la comunidad :D* 🍂
 
 1- YaemoriBot 🍭
-*✰* https://t.me/YaemoriGrupo
+✰ https://t.me/YaemoriGrupo
 
 ─ׄ─ׄ⭒─ׄ─ׅ─ׄ⭒─ׄ─ׅ─ׄ⭒─ׄ─ׅ─ׄ⭒─ׄ─ׅ─ׄ⭒─ׄ─ׄ
 
 ➠ Enlace anulado? entre aquí! 
 
 ♡ Canal :
-*✰* https://t.me/YaemoriChannel
+✰ https://t.me/YaemoriChannel
 
 > © ⍴᥆ᥕᥱrᥱძ ᑲᥡ sᥙᥒᥣіgһ𝗍 𝗍ᥱᥲm`;
 
