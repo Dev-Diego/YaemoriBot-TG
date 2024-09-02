@@ -25,6 +25,12 @@
 
 ---
 
+#### **`🌌 ACTIVAR EN CODESPACE`**
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=Dev-Diego/YaemoriBot-TG&ref=main&geo=UsEast)
+
+----- 
+
 ```bash
 > 🌸 Bienvenido al repositorio de Yaemori-TG.
 > 💋 Este bot es unicamente disponible para Telegram. 💫
