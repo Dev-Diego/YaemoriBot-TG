@@ -5,19 +5,19 @@ async function start() {
     DC.start((ctx) => {
         logCommand(ctx);
         
-        const imageUrl = 'https://telegra.ph/file/619ec1ba8c6caa6b38712.jpg?raw=true';
+        const imageUrl = 'https://telegra.ph/file/e973c7c4f0abf5d7a6476.jpg?raw=true';
 
         const caption = `🪻 CX Start 🪻---->
-| Yo soy @Kotori_Ultra_bot,
-| https://t.me/Kotori_Ultra_bot
+| Yo soy @Sk_YaemoriMini_Bot,
+| https://t.me/Sk_YaemoriMini_Bot
 |
 | Creador
-| @DavidChian
-| https://t.me/DavidChian
+| @Oficial_Diego
+| https://t.me/Oficial_Diego
 |
 | Grupo Oficial
-|_〾̷̸‣⃝⃨⃛⃰⁝̵̓ᝒ̷̸͙🌸̶̩ܻᝒ̷̸͙𝗛꯭𝝣꯭𐌽꯭ᷨ𐍄꯭ͦ𐌰ͭ𐌹᭄𓆩֟֯፝𓆪🄲̷̵̸͙͜ɵ⃨᪻𝐦⃛ᵱ͢𝐚̇ᴎ̶͙𝐲̈🍁⃝⃙̻⃮̋⃛⃰⁌̷̸̊͟⿻᳔̶̷̸_
-| https://t.me/Kotori_OFC
+|_YaemoriBot-MD GP 🌸_
+| https://t.me/YaemoriGrupo
 |
 | Aqui esta el menu
 | /help
