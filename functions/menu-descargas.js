@@ -8,32 +8,33 @@ async function descargas() {
             logCommand(ctx);
 
             try {
-                const imageUrl = 'https://telegra.ph/file/a132ba90b396919bcc359.jpg?raw=true'; 
+                const imageUrl = 'https://telegra.ph/file/65d33e1257607d4b05a1c.jpg?raw=true'; 
                 const caption = `
-╭─╮︹︹⊹︹︹⊹︹︹⊹︹︹╭─╮
-    ⚘݄𖠵⃕⁖𖥔͢Menu ꪶ͢𝑩𝒐𝒕⋆᭄͙̈
-╚▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬▭╝
+© mᥱᥒᥙ ᥆𝖿іᥴіᥲᥣ ძᥱ ᥡᥲᥱm᥆rіᑲ᥆𝗍 ☁️
 
-╭ׅׄ̇─ׅ̻ׄ╮۪̇߭︹ׅ̟ׄ̇︹ׅ۪ׄ̇߭︹ׅ̟ׄ̇⊹۪̇߭︹ׅ̟ׄ̇︹ׅ۪ׄ̇߭︹ׅ̟ׄ̇⊹۪̇߭︹ׅ̟ׄ̇︹ׅ۪ׄ̇߭︹ׅ̟ׄ̇⊹
-├ׁ̟̇  「 Dᴇsᴄᴀʀɢᴀs 」
-├━─━─━─≪≪✠≫≫─━─━─━╯
-├ׁ̟̇❍✎ /twitter *<enlace / link / url>*
-├ׁ̟̇❍✎ /mp3 *<enlace / link / url>*
-├ׁ̟̇❍✎ /mp4 *<enlace / link / url>*
-├ׁ̟̇❍✎ /tiktoksearch *<enlace / link / url>*
-├ׁ̟̇❍✎ /peliculainfo *<nombre>*
-├ׁ̟̇❍✎ /youtubechannel *<nombre>*
-├ׁ̟̇❍✎ /googledrive *<enlace / link / url>*
-├ׁ̟̇❍✎ /mediafire *<enlace / link / url>*
-├ׁ̟̇❍✎ /tiktokimg *<enlace / link / url>*
-├ׁ̟̇❍✎ /instagramstory *<enlace / link / url>*
-├ׁ̟̇❍✎ /instagram *<enlace / link / url>*
-├ׁ̟̇❍✎ /tiktok *<enlace / link / url>*
-├ׁ̟̇❍✎ /applemusic *<enlace / link / url>*
-├ׁ̟̇❍✎ /spotify *<enlace / link / url>*
-├ׁ̟̇❍✎ /facebook *<enlace / link / url>*
-├ׁ̟̇❍✎ /gitclone *<enlace / link / url>*
-໋ꥇ╰ׁ̻─ׅׄ ⊹ٜ꒦۪߭ׄ꒷ٜ߭ׄ꒦۪߭ׄ꒷ٜ߭ׄ꒦۪߭ׄ꒷ٜ߭ׄ꒦۪߭ׄ꒷ٜ߭ׄ꒦۪߭ׄ꒷ٜ߭ׄ꒦۪߭ׄ꒷ٜ߭ׄ꒦۪ׄ߭꒷ٜ߭ׄ꒦۪ׄ߭꒷ٜׄ߭꒦
+┏━━━━━━━━━━━━━━━━━━━⫸
+┃╭──────────────────╸
+┃│ ✧ 𝗗𝗘𝗦𝗖𝗔𝗥𝗚𝗔𝗦 ✧
+┃│
+┃│「🌺」 /twitter *<enlace / link / url>*
+┃│「🌺」 /mp3 *<enlace / link / url>*
+┃│「🌺」 /mp4 *<enlace / link / url>*
+┃│「🌺」 /tiktoksearch *<enlace / link / url>*
+┃│「🌺」 /peliculainfo *<nombre>*
+┃│「🌺」 /youtubechannel *<nombre>*
+┃│「🌺」 /googledrive *<enlace / link / url>*
+┃│「🌺」 /mediafire *<enlace / link / url>*
+┃│「🌺」 /tiktokimg *<enlace / link / url>*
+┃│「🌺」 /instagramstory *<enlace / link / url>*
+┃│「🌺」 /instagram *<enlace / link / url>*
+┃│「🌺」 /tiktok *<enlace / link / url>*
+┃│「🌺」 /applemusic *<enlace / link / url>*
+┃│「🌺」 /spotify *<enlace / link / url>*
+┃│「🌺」 /facebook *<enlace / link / url>*
+┃│「🌺」 /gitclone *<enlace / link / url>*
+໋ꥇ┃╰──────────────────╸
+┗━━━━━━━━━━━━━━━━━━━⫸
+
 /help    /labiblia   /juegos`;
               ctx.replyWithPhoto({ url: imageUrl }, { caption: caption });                    
             } catch (error) {
