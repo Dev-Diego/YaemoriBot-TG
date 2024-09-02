@@ -4,7 +4,7 @@
 
 ```bash
 > 🌸 Bienvenido al repositorio de Yaemori-TG.
-> 💋 Este bot es unicamente disponible para Telegram 💫
+> 💋 Este bot es unicamente disponible para Telegram. 💫
 
-> 🦈 Donde lo puedo hostear?, puedes hostear en nuestra plataforma: CorinPlus Hosting, compra coins y arquiere el mejor servidor para asi puedas usar el bot sin bugs ✨️
+> 🦈 Donde lo puedo hostear?, puedes hostear en nuestra plataforma: CorinPlus Hosting, compra coins y arquiere el mejor servidor para asi puedas usar el bot sin bugs. ✨️
 ```
