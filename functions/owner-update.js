@@ -1,36 +1,38 @@
-/*import os
-import sys
+case 'update':
+case 'actualizar':
+case 'gitpull':
+if (!isCreator) {
+return m.reply(mess.owner)
+}
 
-from pyrogram import Client, filters
-from pyrogram.types import Message
-
-from TelegramBot.helpers.decorators import ratelimiter
-from TelegramBot.helpers.filters import dev_cmd
-from TelegramBot.logging import LOGGER
-
-
-@Client.on_message(filters.command("update") & dev_cmd)
-@ratelimiter
-async def update(_, message: Message):
-    """
-    Update the bot with the latest commit changes from GitHub.
-    """
-
-    msg = await message.reply_text("Pulling changes with latest commits...", quote=True)
-    os.system("git pull")
-    LOGGER(__name__).info("Bot Updated with latest commits. Restarting now..")
-    await msg.edit("Changes pulled with latest commits. Restarting bot now... ")
-    os.execl(sys.executable, sys.executable, "-m", "functions")
-
-
-@Client.on_message(filters.command("restart") & dev_cmd)
-@ratelimiter
-async def restart(_, message: Message):
-    """
-    Just Restart the bot and update the bot with local changes.
-    """
-
-    LOGGER(__name__).info("Restarting the bot. shutting down this instance")
-    await message.reply_text(
-        "Starting a new instance and shutting down this one...", quote=True)
-    os.execl(sys.executable, sys.executable, "-m", "functions")*/
+try {
+const stdout = execSync('git pull' + (m.fromMe && q ? ' ' + q : ''))
+let message = stdout.toString()
+if (message.includes('Already up to date.')) message = 'Todo actualizado'
+if (message.includes('Updating')) message = 'Actualización completada\n\n' + stdout.toString()
+m.reply(message)
+} catch (e) {
+try {
+const status = execSync('git status --porcelain')
+if (status.length > 0) {
+const conflictedFiles = status.toString().split('\n').filter(line => line.trim() !== '').map(line => {
+if (line.includes('.npm/') || line.includes('.cache/') || line.includes('tmp/') || line.includes('session/') || line.includes('npm-debug.log')) {
+return null
+}
+return '*→ ' + line.slice(3) + '*'
+}).filter(Boolean)
+if (conflictedFiles.length > 0) {
+const errorMessage = `Se han detectado cambios locales en archivos del bot que entran en conflicto con las actualizaciones del repositorio. Para actualizar, reinstala el bot o realiza las actualizaciones manualmente\n\nArchivos en conflicto:\n\n${conflictedFiles.join('\n')}`
+await m.reply(errorMessage)
+}
+}
+} catch (error) {
+console.error(error)
+let errorMessage2 = 'Ha ocurrido un error'
+if (error.message) {
+errorMessage2 += '\nMensaje de error: ' + error.message
+}
+await m.reply(errorMessage2)
+}
+}
+break
