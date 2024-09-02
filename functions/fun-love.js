@@ -45,10 +45,10 @@ async function love() {
         const loveMessage = isHighLove ? getRandomMessage(loveMessages) : getRandomMessage(notSoHighLoveMessages);
 const senderName = ctx.from.username || ctx.from.first_name;
         const response =
-            `━━━━━━━⬣ *LOVE* ⬣━━━━━━━\n` +
-            `*❥ En el universo del amor, @${senderName} y @${ctx.message.reply_to_message.from.username || ctx.message.reply_to_message.from.first_name} ${loveDescription} del ${lovePercentage}% de un 100%*\n\n` +
-            `*❥ ${loveMessage}*\n` +
-            `━━━━━━━⬣ *LOVE* ⬣━━━━━━━`;
+            `━━━━━━━⬣ LOVE ⬣━━━━━━━\n` +
+            `❥ En el universo del amor, @${senderName} y @${ctx.message.reply_to_message.from.username || ctx.message.reply_to_message.from.first_name} ${loveDescription} del ${lovePercentage}% de un 100%*\n\n` +
+            `❥ ${loveMessage}\n` +
+            `━━━━━━━⬣ LOVE ⬣━━━━━━━`;
 
         async function loading() {
             const hawemod = [
@@ -59,7 +59,7 @@ const senderName = ctx.from.username || ctx.from.first_name;
                 "     Cargando..\n《 ████████████》100%"
             ];
 
-            const message = await ctx.reply('*💞 ¡Calculando Porcentaje! 💞*', { mentions: ctx.message });
+            const message = await ctx.reply('❤ ¡Calculando Porcentaje! ❤', { mentions: ctx.message });
 
             for (let i = 0; i < hawemod.length; i++) {
                 await new Promise(resolve => setTimeout(resolve, 1000));
