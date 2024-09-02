@@ -1,4 +1,4 @@
-> 🌸 Este bot aun está en desarrollo, algunos comandos tienen fallas por falta de actualización, se estará arreglando los comandos. 🔥
+> 🌸 Este bot aun está en desarrollo, algunos comandos tienen fallas por falta de actualizaciones, se estará arreglando los comandos. 🔥
 
 <h1 align="center">Yaemori Bot - TG 🌱</h1>
 
