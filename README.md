@@ -87,13 +87,12 @@
 ---
 
 ### **`🌴 COLABORADORES`**
-<a href="https://github.com/Dev-Diego/YaemoriBot-TG/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=Dev-Diego/YaemoriBot-TG" /> 
-</a>
+- [**`DevDiego`**](github.com/Dev-Diego)
+- [**`DavidChian`**](github.com/David-Chian)
+- [**`AzamiJs`**](github.com/AzamiJs)
 
 ### **`👑 PROPIETARIO`**
-<a
-href="https://github.com/Dev-Diego"><img src="https://github.com/Dev-Diego.png" width="130" height="130" alt="OfcDiego"/></a>
+- [**`DevDiego`**](github.com/Dev-Diego)
 
 ### **`☁️ CREDITOS`**
 - [**`DevDiego`**](github.com/Dev-Diego)
