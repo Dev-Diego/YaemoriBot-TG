@@ -29,8 +29,8 @@
     "akaneko": "^5.2.8",
     "anime-character-random": "^1.0.14",
     "aptoide-scraper": "^1.0.1",
-    "axios": "^1.6.8",
-    "chalk": "^4.1.2",
+    "axios": "^0.24.0",
+    "chalk": "^4.1.0",
     "consola": "^3.2.3",
     "dotenv": "^16.3.1",
     "file-type": "^17.1.1",
@@ -47,7 +47,7 @@
     "node-webpmux": "^3.1.1",
     "openai": "^3.3.0",
     "telegra.ph": "^1.0.1",
-    "telegraf": "^4.16.3",
+    "telegraf": "^4.3.0",
     "telegraph": "^0.8.22",
     "telegraph-node": "^1.0.4",
     "translate-google": "^1.5.0",
@@ -55,7 +55,7 @@
     "uuid": "^9.0.1",
     "wikipedia": "^2.1.0",
     "yargs": "^17.3.1",
-    "yt-search": "^2.10.4",
+    "yt-search": "^2.10.3",
     "ytdl-core": "^4.11.5"
   }
 }
