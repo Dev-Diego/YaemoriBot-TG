@@ -60,7 +60,7 @@ async function rw() {
                     const remainingTime = cooldown - (now - userData[userId].lastUsedTime);
                     const remainingMinutes = Math.floor(remainingTime / (60 * 1000));
                     const remainingSeconds = Math.floor((remainingTime % (60 * 1000)) / 1000);
-                    ctx.reply(`¡𝐸𝑠𝑝𝑒𝑟𝑎 𝑢𝑛 𝑝𝑜𝑐𝑜 𝑚𝑎𝑠 𝑝𝑎𝑟𝑎 𝑝𝑜𝑑𝑒𝑟 𝑢𝑠𝑎𝑟 𝑒𝑠𝑡𝑒 𝑐𝑜𝑚𝑎𝑛𝑑𝑜!\n\n* 𝗧𝗶𝗲𝗺𝗽𝗼 𝗿𝗲𝘀𝘁𝗮𝗻𝘁𝗲: ${remainingMinutes} 𝗠𝗶𝗻𝘂𝘁𝗼𝘀 𝘆 ${remainingSeconds} 𝗦𝗲𝗴𝘂𝗻𝗱𝗼𝘀.`);
+                    ctx.reply(`¡Espera un poco mas para poder usar este comando!\n\n 𝗧𝗶𝗲𝗺𝗽𝗼 𝗿𝗲𝘀𝘁𝗮𝗻𝘁𝗲: ${remainingMinutes} 𝗠𝗶𝗻𝘂𝘁𝗼𝘀 𝘆 ${remainingSeconds} 𝗦𝗲𝗴𝘂𝗻𝗱𝗼𝘀.`);
                     return;
                 }
             
@@ -439,11 +439,11 @@ async function rw() {
                     const str = `
 ╭─────┈ ♡ ┈───────
 │╽𝐅꯭.𝐄꯭.𝐋꯭.𝐈꯭.𝐂꯭.𝐈.꯭𝐃꯭.𝐀꯭.𝐃꯭.𝐄꯭.𝐒╽
-┆¡𝐻𝑎𝑠 𝑜𝑏𝑡𝑒𝑛𝑖𝑑𝑜 𝑎!
-⧁ *${randomImage.name}!*
-┆𝑆𝑢 𝑣𝑎𝑙𝑜𝑟 𝑒𝑠:
-│ ${randomImage.value} 𝑊𝐹𝑐𝑜𝑖𝑛𝑠!
-╰─────┈ ◇ ┈───────\n\n* 𝗨𝘀𝗮 𝗲𝗹 𝗰𝗼𝗺𝗮𝗻𝗱𝗼 /obtenidos 𝗽𝗮𝗿𝗮 𝘃𝗲𝗿 𝘁𝘂 𝗶𝗻𝘃𝗲𝗻𝘁𝗮𝗿𝗶𝗼.`;
+┆¡Has obtenido a!
+⧁ ${randomImage.name}!
+┆Su valor es:
+│ ${randomImage.value} WFcoins!
+╰─────┈ ◇ ┈───────\n\n 𝗨𝘀𝗮 𝗲𝗹 𝗰𝗼𝗺𝗮𝗻𝗱𝗼 /obtenidos 𝗽𝗮𝗿𝗮 𝘃𝗲𝗿 𝘁𝘂 𝗶𝗻𝘃𝗲𝗻𝘁𝗮𝗿𝗶𝗼.`;
                     ctx.replyWithPhoto({ url: randomImage.url }, { 
     caption: str, 
     reply_markup: Markup.inlineKeyboard([
