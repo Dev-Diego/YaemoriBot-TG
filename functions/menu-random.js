@@ -8,19 +8,20 @@ async function random() {
             logCommand(ctx);
 
             try {
-                const imageUrl = 'https://telegra.ph/file/7b49e29d33b3759215d4f.jpg?raw=true'; 
+                const imageUrl = 'https://telegra.ph/file/65d33e1257607d4b05a1c.jpg?raw=true'; 
                 const caption = `
-╭─╮︹︹⊹︹︹⊹︹︹⊹︹︹╭─╮
-    ⚘݄𖠵⃕⁖𖥔͢Menu ꪶ͢𝑩𝒐𝒕⋆᭄͙̈
-╚▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬▭╝
+© mᥱᥒᥙ ᥆𝖿іᥴіᥲᥣ ძᥱ ᥡᥲᥱm᥆rіᑲ᥆𝗍 ☁️
 
-╭ׅׄ̇─ׅ̻ׄ╮۪̇߭︹ׅ̟ׄ̇︹ׅ۪ׄ̇߭︹ׅ̟ׄ̇⊹۪̇߭︹ׅ̟ׄ̇︹ׅ۪ׄ̇߭︹ׅ̟ׄ̇⊹۪̇߭︹ׅ̟ׄ̇︹ׅ۪ׄ̇߭︹ׅ̟ׄ̇⊹
-├ׁ̟̇  「 Rᴀɴᴅᴏᴍ 」
-├━─━─━─≪≪✠≫≫─━─━─━╯
-├ׁ̟̇❍✎ /randomanime
-├ׁ̟̇❍✎ /walldesktop
-├ׁ̟̇❍✎ /wallphone
-໋ꥇ╰ׁ̻─ׅׄ ⊹ٜ꒦۪߭ׄ꒷ٜ߭ׄ꒦۪߭ׄ꒷ٜ߭ׄ꒦۪߭ׄ꒷ٜ߭ׄ꒦۪߭ׄ꒷ٜ߭ׄ꒦۪߭ׄ꒷ٜ߭ׄ꒦۪߭ׄ꒷ٜ߭ׄ꒦۪ׄ߭꒷ٜ߭ׄ꒦۪ׄ߭꒷ٜׄ߭꒦
+┏━━━━━━━━━━━━━━━━━━━⫸
+┃╭──────────────────╸
+┃│ ✧ 𝗥𝗔𝗡𝗗𝗢𝗠 ✧
+┃│
+┃│「⚡️」 /randomanime
+┃│「⚡️」 /walldesktop
+┃│「⚡️」 /wallphone
+໋ꥇ┃╰──────────────────╸
+┗━━━━━━━━━━━━━━━━━━━⫸
+
 /help    /herramientas   /descargas`;
               ctx.replyWithPhoto({ url: imageUrl }, { caption: caption });                    
             } catch (error) {
