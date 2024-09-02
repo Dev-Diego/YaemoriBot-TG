@@ -99,7 +99,7 @@ comandos();
 try {
     DC.launch();
     console.clear();
-    dc.success('Kotori se a iniciado exitosamente \n')
+    dc.success('YaemoriBot-TG está conectada con éxito. \n')
 } catch (error) {
     dc.error(`El error esta en: \n${error}`)
 }
