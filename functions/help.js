@@ -120,7 +120,7 @@ async function helper(ctx) {
 ┃│ ✧ 𝗛𝗘𝗥𝗥𝗔𝗠𝗜𝗘𝗡𝗧𝗔𝗦 ✧
 ┃│
 ┃│「👑」 /wiki + texto_
-┃│「👑」 /translate +identificador + texto
+┃│「👑」 /translate + identificador + texto
 ┃│「👑」/identificadores
 ┃│「👑」 /spanishto + texto
 ┃│「👑」 /ia + texto
@@ -163,22 +163,22 @@ async function helper(ctx) {
 ┃╭──────────────────╸
 ┃│ ✧ 𝗗𝗘𝗦𝗖𝗔𝗥𝗚𝗔𝗦 ✧
 ┃│
-┃│「🌺」 /twitter *<enlace / link / url>*
-┃│「🌺」 /mp3 *<enlace / link / url>*
-┃│「🌺」 /mp4 *<enlace / link / url>*
-┃│「🌺」 /tiktoksearch *<enlace / link / url>*
-┃│「🌺」 /peliculainfo *<nombre>*
-┃│「🌺」 /youtubechannel *<nombre>*
-┃│「🌺」 /googledrive *<enlace / link / url>*
-┃│「🌺」 /mediafire *<enlace / link / url>*
-┃│「🌺」 /tiktokimg *<enlace / link / url>*
-┃│「🌺」 /instagramstory *<enlace / link / url>*
-┃│「🌺」 /instagram *<enlace / link / url>*
-┃│「🌺」 /tiktok *<enlace / link / url>*
-┃│「🌺」 /applemusic *<enlace / link / url>*
-┃│「🌺」 /spotify *<enlace / link / url>*
-┃│「🌺」 /facebook *<enlace / link / url>*
-┃│「🌺」 /gitclone *<enlace / link / url>*
+┃│「🌺」 /twitter <enlace / link / url>
+┃│「🌺」 /mp3 <enlace / link / url>
+┃│「🌺」 /mp4 <enlace / link / url>
+┃│「🌺」 /tiktoksearch <enlace / link / url>
+┃│「🌺」 /peliculainfo <nombre>
+┃│「🌺」 /youtubechannel <nombre>
+┃│「🌺」 /googledrive <enlace / link / url>
+┃│「🌺」 /mediafire <enlace / link / url>
+┃│「🌺」 /tiktokimg <enlace / link / url>
+┃│「🌺」 /instagramstory <enlace / link / url>
+┃│「🌺」 /instagram <enlace / link / url>
+┃│「🌺」 /tiktok <enlace / link / url>
+┃│「🌺」 /applemusic <enlace / link / url>
+┃│「🌺」 /spotify <enlace / link / url>
+┃│「🌺」 /facebook <enlace / link / url>
+┃│「🌺」 /gitclone <enlace / link / url>
 ໋ꥇ┃╰──────────────────╸
 ┗━━━━━━━━━━━━━━━━━━━⫸
 
