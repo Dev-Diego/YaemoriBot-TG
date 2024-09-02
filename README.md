@@ -1,2 +1,1 @@
-# YaemoriBot-TG
-🌺 Super bot de telegram
+David Chian 
