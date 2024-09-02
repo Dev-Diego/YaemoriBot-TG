@@ -19,21 +19,21 @@ DC.command(['inventario','bl', 'balance'], async (ctx) => {
         const xp = userData[userId].xp;
         const money = userData[userId].money || 0; 
         const message = `
-*𝑰𝒏𝒗𝒆𝒏𝒕𝒂𝒓𝒊𝒐* 📦
+\`INVENTARIO\` 📦
 ╭─────────────╮
-│ **XP Acumulado** 
+│ \`XP Acumulado`\
 │
 │       ${xp}       
 ╰─────────────╯
 ╭──────────────╮
-│ **Dinero Acumulado**
+│ \`Dinero Acumulado`\
 │
 │      ${money}         
 ╰──────────────╯
-🔹️ *𝑀𝑖𝑒𝑛𝑡𝑟𝑎𝑠 𝑚𝑎𝑠 𝑢𝑠𝑒𝑠 𝑒𝑙 𝑏𝑜𝑡 𝑚𝑎𝑠 𝑒𝑐𝑜𝑛𝑜𝑚𝑖𝑎 𝑡𝑒𝑛𝑑𝑟𝑎𝑧!*`;
+🔹️ *Cuando mas uses el bot mas economia tendrás!*`;
 
         try {
-            const response = await axios.get('https://telegra.ph/file/cc840d965a96d1f365e5a.jpg', { responseType: 'arraybuffer' });
+            const response = await axios.get('https://telegra.ph/file/51aa55f972b2518325dfb.jpg', { responseType: 'arraybuffer' });
             const photo = Buffer.from(response.data, 'binary');
             ctx.replyWithPhoto({ source: photo }, { caption: message, parse_mode: 'Markdown' });
         } catch (error) {
