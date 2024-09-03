@@ -18,7 +18,7 @@ async function facebook() {
         if (textResponse.result && textResponse.result) {
           const result = textResponse.result;
           await ctx.telegram.editMessageText(ctx.chat.id, downloadingMessage.message_id, null, 'Completado disfrute su contenido.');
-          ctx.replyWithVideo({ url: result.Normal_video });
+          ctx.replyWithVideo({ url: result.sd });
         } else {
           ctx.reply('La API no devolvió la información esperada o no se encontró el enlace HD.');
         }
