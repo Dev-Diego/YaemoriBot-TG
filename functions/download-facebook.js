@@ -2,10 +2,6 @@ const axios = require('axios');
 const DC = require('../global');
 const logCommand = require('../log/logcommand');
 const fetch = require('node-fetch');
-
-const apikasu = "https://apikasu.onrender.com";
-const apikey = "42ded262";
-
 async function facebook() {
   DC.command(['facebook', 'fb'], async (ctx) => {
     logCommand(ctx);
@@ -16,7 +12,7 @@ async function facebook() {
     }
     const downloadingMessage = await ctx.reply('Descargando archivo...');
     try {
-      const response = await fetch(`${apikasu}/api/dowloader/fbdown?url=${userText}&apikey=${apikey}`);
+      const response = await fetch(`https://api.diego-ofc.site/fbvideo?url=${userText}`);
       if (response.ok) {
         const textResponse = await response.json();
         if (textResponse.result && textResponse.result) {
