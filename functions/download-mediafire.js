@@ -3,9 +3,6 @@ const DC = require('../global');
 const logCommand = require('../log/logcommand');
 const fetch = require('node-fetch'); 
 
-const apikasu = "https://apikasu.onrender.com";
-const apikey = "42ded262";
-
 async function mediafire() {
   DC.command(['mediafire'], async (ctx) => {
     logCommand(ctx);
@@ -17,16 +14,16 @@ async function mediafire() {
 
     const downloadingMessage = await ctx.reply('Descargando archivo...');
     try {
-      const response = await fetch(`${apikasu}/api/dowloader/mediafire?url=${userText}&apikey=${apikey}`);
+      const response = await fetch(`https://api.diego-ofc.site/v2/mediafire-dl?url=${userText}`);
       if (response.ok) {
         const textResponse = await response.json();
         if (textResponse.status && textResponse.result) {
           const result = textResponse.result;
-          const documentUrl = result.url;
+          const downloadUrl = result.url;
           const extension = result.ext.toLowerCase();
           const allowedExtensions = ['mp4', 'mp3', 'jpg', 'jpeg', 'png', 'gif', 'pdf', 'rar', 'zip'];
           if (allowedExtensions.includes(extension)) {
-            const document = `${documentUrl}.${extension}`;
+            const document = `${downloadUrl}.${extension}`;
             const message = `
 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗖𝗜𝗢𝗡
 
