@@ -6,6 +6,10 @@ const readline = require('readline');
 const yargs = require('yargs');
 const api = require('./api.js')
 const fs = require('fs');
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
 
 const mostrarTutorial = () => {
     console.log(chalk.yellowBright("\nTutorial para obtener el token de bot de Telegram:"));
