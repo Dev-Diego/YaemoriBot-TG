@@ -92,11 +92,6 @@ const iniciarBot = async () => {
 
     const bot = new Telegraf(token);
 
-    // Comando /start
-    bot.start((ctx) => {
-        ctx.reply('¡Hola! Soy tu bot de Telegram, listo para ayudarte.');
-    });
-
 const gamesFilePath = 'games.json';
 if (!fs.existsSync(gamesFilePath)) {
     const initialGameData = {
