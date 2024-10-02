@@ -87,4 +87,4 @@ const iniciarBot = async () => {
 
     const bot = new Telegraf(token);
 
-module.exports = DC
+module.exports = bot
