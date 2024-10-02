@@ -1,3 +1,4 @@
+const { Telegraf } = require('telegraf');
 const dc = require("consola");
 const chalk = require('chalk');
 const comandos = require('./commands');
