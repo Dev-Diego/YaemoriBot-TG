@@ -86,5 +86,3 @@ const iniciarBot = async () => {
     console.log(chalk.green('👑 Creadores: DevDiego & DavidChian'));
 
     const bot = new Telegraf(token);
-
-module.exports = bot
