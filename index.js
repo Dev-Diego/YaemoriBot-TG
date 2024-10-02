@@ -4,6 +4,7 @@ const chalk = require('chalk');
 const comandos = require('./commands');
 const { exec } = require('child_process');
 const readline = require('readline');
+const readline = requiere('readline');
 const yargs = require('yargs');
 const api = require('./api.js')
 const fs = require('fs');
