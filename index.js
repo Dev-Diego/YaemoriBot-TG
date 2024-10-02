@@ -213,3 +213,13 @@ DC.use(async (ctx, next) => {
     }
     return next();
 });
+
+    // Lanzar el bot
+    bot.launch().then(() => {
+        console.log(chalk.greenBright('El bot está en línea y listo para usarse.'));
+    }).catch((err) => {
+        console.error('Error al lanzar el bot:', err);
+    });
+};
+
+iniciarBot();
