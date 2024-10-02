@@ -47,7 +47,7 @@
     "node-webpmux": "^3.1.1",
     "openai": "^3.3.0",
     "telegra.ph": "^1.0.1",
-    "telegraf": "^4.3.0",
+    "telegraf": "^4.10.2",
     "telegraph": "^0.8.22",
     "telegraph-node": "^1.0.4",
     "translate-google": "^1.5.0",
