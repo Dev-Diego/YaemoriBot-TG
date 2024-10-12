@@ -1,9 +1,7 @@
 const DC = require("../global");
 const logCommand = require('../log/logcommand');
 
-async function start() {
-    DC.start((ctx) => {
-        logCommand(ctx);
+DC.command('start', (ctx) => {
         
         const imageUrl = 'https://telegra.ph/file/6ffc21491dc41ec3b4abd.jpg?raw=true';
 
