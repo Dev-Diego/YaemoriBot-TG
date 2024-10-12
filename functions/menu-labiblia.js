@@ -9,7 +9,7 @@ async function labiblia() {
 
             try {
                 const imageUrl = 'https://qu.ax/CmyNh.jpg?raw=true'; 
-                const caption = `•/• *MENÚ +18* •/•
+                const caption = `•/• MENÚ +18 •/•
 
 ✰ #pack
 ✰ #pack2
