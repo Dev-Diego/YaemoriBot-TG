@@ -9,7 +9,7 @@ async function descargas() {
 
             try {
                 const imageUrl = 'https://qu.ax/CmyNh.jpg?raw=true'; 
-                const caption = `•/• Descargas •/•
+                const caption = `•/• MENÚ DESCARGAS •/•
 
 ✰ #twitter <enlace / link / url>
 ✰ #mp3 <enlace / link / url>
