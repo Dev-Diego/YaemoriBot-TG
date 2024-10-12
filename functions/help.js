@@ -52,7 +52,7 @@ async function helper(ctx) {
 🕒 𝐀𝐜𝐭𝐢𝐯𝐢𝐝𝐚𝐝: ${uptime}
 🌴 𝐆𝐫𝐮𝐩𝐨: https://t.me/YaemoriGrupo
 📅 𝐅𝐞𝐜𝐡𝐚: ${date}
-👤 𝐔𝐬𝐮𝐚𝐫𝐢𝐨𝐬: ${userCount}` });
+👤 𝐔𝐬𝐮𝐚𝐫𝐢𝐨𝐬: ${userCount}` 
                             
 
                 await loading(ctx, "👑 Aquí está el menú oficial 🌸");
