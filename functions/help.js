@@ -45,9 +45,11 @@ async function helper(ctx) {
         const uptime = clockString(diff);
                 const loadingMessage = await ctx.reply(`🌸 Espere un momento... 🔥`); 
                 const imageUrl = 'https://qu.ax/CmyNh.jpg?raw=true';
-                const caption = `•/• *INFORMACIÓN* •/•
+                const caption = `•/• INFORMACIÓN •/•
 
 🌱 𝐂𝐫𝐞𝐚𝐝𝐨𝐫: DevDiego
+🐢 𝐁𝐨𝐭: YaemoriBot-TG
+🚀 𝐇𝐨𝐬𝐭𝐢𝐧𝐠: Sky Ultra Plus
 💫 𝐍𝐮𝐦𝐞𝐫𝐨: https://t.me/Oficial_Diego
 🕒 𝐀𝐜𝐭𝐢𝐯𝐢𝐝𝐚𝐝: ${uptime}
 🌴 𝐆𝐫𝐮𝐩𝐨: https://t.me/YaemoriGrupo
@@ -78,7 +80,7 @@ async function helper(ctx) {
 		 DC.action('group', async (ctx) => {
             await ctx.telegram.sendChatAction(ctx.chat.id, 'typing');
             await ctx.replyWithPhoto({ url: 'https://qu.ax/CmyNh.jpg' }, { caption: `
-•/• *MENÚ GRUPOS* •/•
+•/• MENÚ GRUPOS •/•
 
 ✰ #antilink + on o off
 ✰ #modohorny + on o off
@@ -87,7 +89,7 @@ async function helper(ctx) {
              });
          DC.action('herramientas', async (ctx) => {
             await ctx.telegram.sendChatAction(ctx.chat.id, 'typing');
-            await ctx.replyWithPhoto({ url: 'https://qu.ax/CmyNh.jpg' }, { caption: `•/• *MENÚ HERRAMIENTAS* •/•
+            await ctx.replyWithPhoto({ url: 'https://qu.ax/CmyNh.jpg' }, { caption: `•/• MENÚ HERRAMIENTAS •/•
 
 ✰ #wiki + texto_
 ✰ #translate + identificador + texto
@@ -100,7 +102,7 @@ async function helper(ctx) {
              });
              DC.action('juegos', async (ctx) => {
             await ctx.telegram.sendChatAction(ctx.chat.id, 'typing');
-            await ctx.replyWithPhoto({ url: 'https://qu.ax/CmyNh.jpg' }, { caption: `•/• *MENÚ JUEGOS* •/•
+            await ctx.replyWithPhoto({ url: 'https://qu.ax/CmyNh.jpg' }, { caption: `•/• MENÚ JUEGOS •/•
 
 ✰ #cum + mencion
 ✰ #violar + mencion
@@ -113,7 +115,7 @@ async function helper(ctx) {
                  });
                   DC.action('descargas', async (ctx) => {
             await ctx.telegram.sendChatAction(ctx.chat.id, 'typing');
-            await ctx.replyWithPhoto({ url: 'https://qu.ax/CmyNh.jpg' }, { caption: `•/• *MENÚ DESCARGAS* •/•
+            await ctx.replyWithPhoto({ url: 'https://qu.ax/CmyNh.jpg' }, { caption: `•/• MENÚ DESCARGAS •/•
 
 ✰ #twitter <enlace / link / url>
 ✰ #mp3 <enlace / link / url>
@@ -134,7 +136,7 @@ async function helper(ctx) {
                       });
                        DC.action('random', async (ctx) => {
             await ctx.telegram.sendChatAction(ctx.chat.id, 'typing');
-            await ctx.replyWithPhoto({ url: 'https://qu.ax/CmyNh.jpg' }, { caption: `•/• *MENÚ RANDOM* •/•
+            await ctx.replyWithPhoto({ url: 'https://qu.ax/CmyNh.jpg' }, { caption: `•/• MENÚ RANDOM •/•
 
 ✰ #randomanime
 ✰ #walldesktop
@@ -142,7 +144,7 @@ async function helper(ctx) {
                            });
                             DC.action('adult', async (ctx) => {
             await ctx.telegram.sendChatAction(ctx.chat.id, 'typing');
-            await ctx.replyWithPhoto({ url: 'https://qu.ax/CmyNh.jpg' }, { caption: `•/• *MENU +18* •/•
+            await ctx.replyWithPhoto({ url: 'https://qu.ax/CmyNh.jpg' }, { caption: `•/• MENU +18 •/•
 
 ✰ #pack
 ✰ #pack2
