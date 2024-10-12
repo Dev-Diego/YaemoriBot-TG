@@ -1,7 +1,9 @@
 const DC = require("../global");
 const logCommand = require('../log/logcommand');
 
-DC.command('start', (ctx) => {
+async function start() {
+    DC.start((ctx) => {
+        logCommand(ctx);
         
         const imageUrl = 'https://telegra.ph/file/6ffc21491dc41ec3b4abd.jpg?raw=true';
 
@@ -25,6 +27,6 @@ DC.command('start', (ctx) => {
 
 ctx.replyWithPhoto({ url: imageUrl }, { caption: caption });
     });
-
+}
 
 module.exports = start;
