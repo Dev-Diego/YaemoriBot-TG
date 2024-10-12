@@ -44,32 +44,15 @@ async function helper(ctx) {
                 const diff = Date.now() - startTime;
         const uptime = clockString(diff);
                 const loadingMessage = await ctx.reply(`🌸 Espere un momento... 🔥`); 
-                const imageUrl = 'https://telegra.ph/file/65d33e1257607d4b05a1c.jpg?raw=true';
-                const caption = `
-© mᥱᥒᥙ ᥆𝖿іᥴіᥲᥣ ძᥱ ᥡᥲᥱm᥆rіᑲ᥆𝗍 ☁️
+                const imageUrl = 'https://qu.ax/CmyNh.jpg?raw=true';
+                const caption = `•/• *INFORMACIÓN* •/•
 
-┏━━━━━━━━━━━━━━━━━━━⫸
-┃╭──────────────────╸
-┃│ ✧ 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗖𝗜𝗢𝗡 ✧
-┃│
-┃│「🌱」 𝐂𝐫𝐞𝐚𝐝𝐨𝐫: DevDiego
-┃│「💫」 𝐍𝐮𝐦𝐞𝐫𝐨: https://t.me/Oficial_Diego
-┃│「🕒」 𝐀𝐜𝐭𝐢𝐯𝐢𝐝𝐚𝐝: ${uptime}
-┃│「🌴」 𝐆𝐫𝐮𝐩𝐨: https://t.me/YaemoriGrupo
-┃│「📅」 𝐅𝐞𝐜𝐡𝐚: ${date}
-┃│「👤」 𝐔𝐬𝐮𝐚𝐫𝐢𝐨𝐬: ${userCount}
-┃╰──────────────────╸
-┗━━━━━━━━━━━━━━━━━━━⫸
-
-┏━━━━━━━━━━━━━━━━━━━⫸
-┃╭──────────────────╸
-┃│ ✧ 𝗖𝗢𝗠𝗔𝗡𝗗𝗢𝗦 ✧
-┃│
-┃│「👤」 /obtenidos
-┃│「👤」 /creador
-┃│「👤」 /grupos໋ꥇ
-┃╰──────────────────╸
-┗━━━━━━━━━━━━━━━━━━━⫸`;
+🌱 𝐂𝐫𝐞𝐚𝐝𝐨𝐫: DevDiego
+💫 𝐍𝐮𝐦𝐞𝐫𝐨: https://t.me/Oficial_Diego
+🕒 𝐀𝐜𝐭𝐢𝐯𝐢𝐝𝐚𝐝: ${uptime}
+🌴 𝐆𝐫𝐮𝐩𝐨: https://t.me/YaemoriGrupo
+📅 𝐅𝐞𝐜𝐡𝐚: ${date}
+👤 𝐔𝐬𝐮𝐚𝐫𝐢𝐨𝐬: ${userCount}` });
                             
 
                 await loading(ctx, "👑 Aquí está el menú oficial 🌸");
@@ -94,133 +77,80 @@ async function helper(ctx) {
         });
 		 DC.action('group', async (ctx) => {
             await ctx.telegram.sendChatAction(ctx.chat.id, 'typing');
-            await ctx.replyWithPhoto({ url: 'https://telegra.ph/file/65d33e1257607d4b05a1c.jpg' }, { caption: `
-© mᥱᥒᥙ ᥆𝖿іᥴіᥲᥣ ძᥱ ᥡᥲᥱm᥆rіᑲ᥆𝗍 ☁️
+            await ctx.replyWithPhoto({ url: 'https://qu.ax/CmyNh.jpg' }, { caption: `
+•/• *MENÚ GRUPOS* •/•
 
-┏━━━━━━━━━━━━━━━━━━━⫸
-┃╭──────────────────╸
-┃│ ✧ 𝗚𝗥𝗨𝗣𝗢𝗦 ✧
-┃│
-┃│「✨️」 /antilink + on o off
-┃│「✨️」 /modohorny + on o off
-┃│「✨️」 /fijar + responder mensaje
-┃│「✨️」 /kick + responer usuario
-໋ꥇ┃╰──────────────────╸
-┗━━━━━━━━━━━━━━━━━━━⫸
-
-/help    /juegos   /descargas` });
+✰ #antilink + on o off
+✰ #modohorny + on o off
+✰ #fijar + responder mensaje
+✰ #kick + responer usuario` });
              });
          DC.action('herramientas', async (ctx) => {
             await ctx.telegram.sendChatAction(ctx.chat.id, 'typing');
-            await ctx.replyWithPhoto({ url: 'https://telegra.ph/file/65d33e1257607d4b05a1c.jpg' }, { caption: `
-© mᥱᥒᥙ ᥆𝖿іᥴіᥲᥣ ძᥱ ᥡᥲᥱm᥆rіᑲ᥆𝗍 ☁️
+            await ctx.replyWithPhoto({ url: 'https://qu.ax/CmyNh.jpg' }, { caption: `•/• *MENÚ HERRAMIENTAS* •/•
 
-┏━━━━━━━━━━━━━━━━━━━⫸
-┃╭──────────────────╸
-┃│ ✧ 𝗛𝗘𝗥𝗥𝗔𝗠𝗜𝗘𝗡𝗧𝗔𝗦 ✧
-┃│
-┃│「👑」 /wiki + texto_
-┃│「👑」 /translate + identificador + texto
-┃│「👑」/identificadores
-┃│「👑」 /spanishto + texto
-┃│「👑」 /ia + texto
-┃│「👑」 /dalle + texto
-┃│「👑」 /dalle2 + texto
-┃│「👑」 /tourl + responde a una imagen o video
-┃╰──────────────────╸
-┗━━━━━━━━━━━━━━━━━━━⫸
-
-/help    /juegos   /descargas` });
+✰ #wiki + texto_
+✰ #translate + identificador + texto
+✰ #identificadores
+✰ #spanishto + texto
+✰ #ia + texto
+✰ #dalle + texto
+✰ #dalle2 + texto
+✰ #tourl + responde a una imagen o video` });
              });
              DC.action('juegos', async (ctx) => {
             await ctx.telegram.sendChatAction(ctx.chat.id, 'typing');
-            await ctx.replyWithPhoto({ url: 'https://telegra.ph/file/65d33e1257607d4b05a1c.jpg' }, { caption: `
-© mᥱᥒᥙ ᥆𝖿іᥴіᥲᥣ ძᥱ ᥡᥲᥱm᥆rіᑲ᥆𝗍 ☁️
+            await ctx.replyWithPhoto({ url: 'https://qu.ax/CmyNh.jpg' }, { caption: `•/• *MENÚ JUEGOS* •/•
 
-┏━━━━━━━━━━━━━━━━━━━⫸
-┃╭──────────────────╸
-┃│ ✧ 𝗝𝗨𝗘𝗚𝗢𝗦 ✧
-┃│
-┃│「🌸」 /cum + mencion
-┃│「🌸」 /violar + mencion
-┃│「🌸」 /nalguear + mencion
-┃│「🌸」 /sexo + mencion
-┃│「🌸」 /kiss + mencion
-┃│「🌸」 /qc + texto
-┃│「🌸」 /rw
-┃│「🌸」 /love + responde a un usuario
-໋ꥇ┃╰──────────────────╸
-┗━━━━━━━━━━━━━━━━━━━⫸
-
-/help    /random   /descargas` });
+✰ #cum + mencion
+✰ #violar + mencion
+✰ #nalguear + mencion
+✰ #sexo + mencion
+✰ #kiss + mencion
+✰ #qc + texto
+✰ #rw
+✰ #love + responde a un usuario` });
                  });
                   DC.action('descargas', async (ctx) => {
             await ctx.telegram.sendChatAction(ctx.chat.id, 'typing');
-            await ctx.replyWithPhoto({ url: 'https://telegra.ph/file/65d33e1257607d4b05a1c.jpg' }, { caption: `
-© mᥱᥒᥙ ᥆𝖿іᥴіᥲᥣ ძᥱ ᥡᥲᥱm᥆rіᑲ᥆𝗍 ☁️
+            await ctx.replyWithPhoto({ url: 'https://qu.ax/CmyNh.jpg' }, { caption: `•/• *MENÚ DESCARGAS* •/•
 
-┏━━━━━━━━━━━━━━━━━━━⫸
-┃╭──────────────────╸
-┃│ ✧ 𝗗𝗘𝗦𝗖𝗔𝗥𝗚𝗔𝗦 ✧
-┃│
-┃│「🌺」 /twitter <enlace / link / url>
-┃│「🌺」 /mp3 <enlace / link / url>
-┃│「🌺」 /mp4 <enlace / link / url>
-┃│「🌺」 /tiktoksearch <enlace / link / url>
-┃│「🌺」 /peliculainfo <nombre>
-┃│「🌺」 /youtubechannel <nombre>
-┃│「🌺」 /googledrive <enlace / link / url>
-┃│「🌺」 /mediafire <enlace / link / url>
-┃│「🌺」 /tiktokimg <enlace / link / url>
-┃│「🌺」 /instagramstory <enlace / link / url>
-┃│「🌺」 /instagram <enlace / link / url>
-┃│「🌺」 /tiktok <enlace / link / url>
-┃│「🌺」 /applemusic <enlace / link / url>
-┃│「🌺」 /spotify <enlace / link / url>
-┃│「🌺」 /facebook <enlace / link / url>
-┃│「🌺」 /gitclone <enlace / link / url>
-໋ꥇ┃╰──────────────────╸
-┗━━━━━━━━━━━━━━━━━━━⫸
-
-/help    /labiblia   /juegos` });
+✰ #twitter <enlace / link / url>
+✰ #mp3 <enlace / link / url>
+✰ #mp4 <enlace / link / url>
+✰ #tiktoksearch <enlace / link / url>
+✰ #peliculainfo <nombre>
+✰ #youtubechannel <nombre>
+✰ #googledrive <enlace / link / url>
+✰ #mediafire <enlace / link / url>
+✰ #tiktokimg <enlace / link / url>
+✰ #instagramstory <enlace / link / url>
+✰ #instagram <enlace / link / url>
+✰ #tiktok <enlace / link / url>
+✰ #applemusic <enlace / link / url>
+✰ #spotify <enlace / link / url>
+✰ #facebook <enlace / link / url>
+✰ #gitclone <enlace / link / url>` });
                       });
                        DC.action('random', async (ctx) => {
             await ctx.telegram.sendChatAction(ctx.chat.id, 'typing');
-            await ctx.replyWithPhoto({ url: 'https://telegra.ph/file/65d33e1257607d4b05a1c.jpg' }, { caption: `
-© mᥱᥒᥙ ᥆𝖿іᥴіᥲᥣ ძᥱ ᥡᥲᥱm᥆rіᑲ᥆𝗍 ☁️
+            await ctx.replyWithPhoto({ url: 'https://qu.ax/CmyNh.jpg' }, { caption: `•/• *MENÚ RANDOM* •/•
 
-┏━━━━━━━━━━━━━━━━━━━⫸
-┃╭──────────────────╸
-┃│ ✧ 𝗥𝗔𝗡𝗗𝗢𝗠 ✧
-┃│
-┃│「⚡️」 /randomanime
-┃│「⚡️」 /walldesktop
-┃│「⚡️」 /wallphone
-໋ꥇ┃╰──────────────────╸
-┗━━━━━━━━━━━━━━━━━━━⫸
-
-/help    /herramientas   /descargas` });
+✰ #randomanime
+✰ #walldesktop
+✰ #wallphone` });
                            });
                             DC.action('adult', async (ctx) => {
             await ctx.telegram.sendChatAction(ctx.chat.id, 'typing');
-            await ctx.replyWithPhoto({ url: 'https://telegra.ph/file/65d33e1257607d4b05a1c.jpg' }, { caption: `
-© mᥱᥒᥙ ᥆𝖿іᥴіᥲᥣ ძᥱ ᥡᥲᥱm᥆rіᑲ᥆𝗍 ☁️
+            await ctx.replyWithPhoto({ url: 'https://qu.ax/CmyNh.jpg' }, { caption: `•/• *MENU +18* •/•
 
-┏━━━━━━━━━━━━━━━━━━━⫸
-┃╭──────────────────╸
-┃│ ✧ 𝗖𝗢𝗠𝗔𝗡𝗗𝗢𝗦 +18 ✧
-┃│
-┃│「🔥」 /pack
-┃│「🔥」 /pack2
-┃│「🔥」 /pack3
-┃│「🔥」 /videosxxxc
-┃│「🔥」 /videosxxxc2
-┃│「🔥」 /hentai
-┃│「🔥」 /rule34 + texto
-໋ꥇ┃╰──────────────────╸
-┗━━━━━━━━━━━━━━━━━━━⫸
-
-/help    /herramientas   /juegos` })
+✰ #pack
+✰ #pack2
+✰ #pack3
+✰ #videosxxxc
+✰ #videosxxxc2
+✰ #hentai
+✰ #rule34 + texto` })
                                 });
     } catch (error) {
         dc.error('hay un error en help.js');
