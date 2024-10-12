@@ -25,6 +25,6 @@ DC.command('start', (ctx) => {
 
 ctx.replyWithPhoto({ url: imageUrl }, { caption: caption });
     });
-}
+
 
 module.exports = start;
