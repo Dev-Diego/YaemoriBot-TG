@@ -2,7 +2,7 @@
 
 <h1 align="center">Yaemori Bot - TG 🌱</h1>
 
-![Yaemori](https://telegra.ph/file/f0ed4002620ea12dce3c0.jpg)
+![Yaemori](https://qu.ax/CmyNh.jpg)
 
 <p align="center">☁️ Bot unicamente para telegram.</p>
 </p>
