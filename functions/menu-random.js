@@ -8,21 +8,12 @@ async function random() {
             logCommand(ctx);
 
             try {
-                const imageUrl = 'https://telegra.ph/file/65d33e1257607d4b05a1c.jpg?raw=true'; 
-                const caption = `
-© mᥱᥒᥙ ᥆𝖿іᥴіᥲᥣ ძᥱ ᥡᥲᥱm᥆rіᑲ᥆𝗍 ☁️
+                const imageUrl = 'https://qu.ax/CmyNh.jpg?raw=true'; 
+                const caption = `•/• *MENÚ RANDOM* •/•
 
-┏━━━━━━━━━━━━━━━━━━━⫸
-┃╭──────────────────╸
-┃│ ✧ 𝗥𝗔𝗡𝗗𝗢𝗠 ✧
-┃│
-┃│「⚡️」 /randomanime
-┃│「⚡️」 /walldesktop
-┃│「⚡️」 /wallphone
-໋ꥇ┃╰──────────────────╸
-┗━━━━━━━━━━━━━━━━━━━⫸
-
-/help    /herramientas   /descargas`;
+✰ #randomanime
+✰ #walldesktop
+✰ #wallphone`;
               ctx.replyWithPhoto({ url: imageUrl }, { caption: caption });                    
             } catch (error) {
                 dc.warn("Hay un error");
