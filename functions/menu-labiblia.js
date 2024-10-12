@@ -8,25 +8,16 @@ async function labiblia() {
             logCommand(ctx);
 
             try {
-                const imageUrl = 'https://telegra.ph/file/65d33e1257607d4b05a1c.jpg?raw=true'; 
-                const caption = `
-© mᥱᥒᥙ ᥆𝖿іᥴіᥲᥣ ძᥱ ᥡᥲᥱm᥆rіᑲ᥆𝗍 ☁️
+                const imageUrl = 'https://qu.ax/CmyNh.jpg?raw=true'; 
+                const caption = `•/• *MENÚ +18* •/•
 
-┏━━━━━━━━━━━━━━━━━━━⫸
-┃╭──────────────────╸
-┃│ ✧ 𝗖𝗢𝗠𝗔𝗡𝗗𝗢𝗦 +18 ✧
-┃│
-┃│「🔥」 /pack
-┃│「🔥」 /pack2
-┃│「🔥」 /pack3
-┃│「🔥」 /videosxxxc
-┃│「🔥」 /videosxxxc2
-┃│「🔥」 /hentai
-┃│「🔥」 /rule34 + texto
-໋ꥇ┃╰──────────────────╸
-┗━━━━━━━━━━━━━━━━━━━⫸
-
-/help    /herramientas   /juegos`;
+✰ #pack
+✰ #pack2
+✰ #pack3
+✰ #videosxxxc
+✰ #videosxxxc2
+✰ #hentai
+✰ #rule34 + texto`;
               ctx.replyWithPhoto({ url: imageUrl }, { caption: caption });                    
             } catch (error) {
                 dc.warn("Hay un error");
