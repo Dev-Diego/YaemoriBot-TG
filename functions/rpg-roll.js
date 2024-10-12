@@ -437,13 +437,15 @@ async function rw() {
                     let availableImages = images.filter(image => !characters.includes(image.name));
                     const randomImage = availableImages[Math.floor(Math.random() * availableImages.length)];
                     const str = `
-╭─────┈ ♡ ┈───────
-│╽𝐅꯭.𝐄꯭.𝐋꯭.𝐈꯭.𝐂꯭.𝐈.꯭𝐃꯭.𝐀꯭.𝐃꯭.𝐄꯭.𝐒╽
-┆¡Has obtenido a!
-⧁ ${randomImage.name}!
-┆Su valor es:
-│ ${randomImage.value} WFcoins!
-╰─────┈ ◇ ┈───────\n\n 𝗨𝘀𝗮 𝗲𝗹 𝗰𝗼𝗺𝗮𝗻𝗱𝗼 /obtenidos 𝗽𝗮𝗿𝗮 𝘃𝗲𝗿 𝘁𝘂 𝗶𝗻𝘃𝗲𝗻𝘁𝗮𝗿𝗶𝗼.`;
+┏━━━━━━━━━⪩
+┃˚₊ · ͟͟͞͞➳❥ 𝐅𝐄𝐋𝐈𝐂𝐈𝐃𝐀𝐃𝐄𝐒
+┃⏤͟͟͞͞𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐉𝐄 𝐎𝐁𝐓𝐔𝐕𝐈𝐃𝐎
+┗━━━━━━━━━⪩
+
+✰ Nombre:
+> » *${randomImage.name}*
+✰ Valor:
+> » *${randomImage.value}*!`;
                     ctx.replyWithPhoto({ url: randomImage.url }, { 
     caption: str, 
     reply_markup: Markup.inlineKeyboard([
