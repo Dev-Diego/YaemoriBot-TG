@@ -11,22 +11,22 @@ async function descargas() {
                 const imageUrl = 'https://qu.ax/CmyNh.jpg?raw=true'; 
                 const caption = `•/• *Descargas* •/•
 
-「🌺」 /twitter *<enlace / link / url>*
-「🌺」 /mp3 *<enlace / link / url>*
-「🌺」 /mp4 *<enlace / link / url>*
-「🌺」 /tiktoksearch *<enlace / link / url>*
-「🌺」 /peliculainfo *<nombre>*
-「🌺」 /youtubechannel *<nombre>*
-「🌺」 /googledrive *<enlace / link / url>*
-「🌺」 /mediafire *<enlace / link / url>*
-「🌺」 /tiktokimg *<enlace / link / url>*
-「🌺」 /instagramstory *<enlace / link / url>*
-「🌺」 /instagram *<enlace / link / url>*
-「🌺」 /tiktok *<enlace / link / url>*
-「🌺」 /applemusic *<enlace / link / url>*
-「🌺」 /spotify *<enlace / link / url>*
-「🌺」 /facebook *<enlace / link / url>*
-「🌺」 /gitclone *<enlace / link / url>*`;
+✰ #twitter *<enlace / link / url>*
+✰ #mp3 *<enlace / link / url>*
+✰ #mp4 *<enlace / link / url>*
+✰ #tiktoksearch *<enlace / link / url>*
+✰ #peliculainfo *<nombre>*
+✰ #youtubechannel *<nombre>*
+✰ #googledrive *<enlace / link / url>*
+✰ #mediafire *<enlace / link / url>*
+✰ #tiktokimg *<enlace / link / url>*
+✰ #instagramstory *<enlace / link / url>*
+✰ #instagram *<enlace / link / url>*
+✰ #tiktok *<enlace / link / url>*
+✰ #applemusic *<enlace / link / url>
+✰ #spotify *<enlace / link / url>*
+✰ #facebook *<enlace / link / url>*
+✰ #gitclone *<enlace / link / url>*`;
               ctx.replyWithPhoto({ url: imageUrl }, { caption: caption });                    
             } catch (error) {
                 dc.warn("Hay un error");
