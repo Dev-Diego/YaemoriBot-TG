@@ -9,7 +9,7 @@ async function herramientas() {
 
             try {
                 const imageUrl = 'https://qu.ax/CmyNh.jpg?raw=true'; 
-                const caption = `•/• *MENÚ HERRAMIENTAS* •/•
+                const caption = `•/• MENÚ HERRAMIENTAS •/•
 
 ✰ #wiki + texto
 ✰ #translate +identificador + texto
