@@ -9,7 +9,7 @@ async function random() {
 
             try {
                 const imageUrl = 'https://qu.ax/CmyNh.jpg?raw=true'; 
-                const caption = `•/• *MENÚ RANDOM* •/•
+                const caption = `•/• MENÚ RANDOM •/•
 
 ✰ #randomanime
 ✰ #walldesktop
