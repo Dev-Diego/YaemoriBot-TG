@@ -9,7 +9,7 @@ async function juegos() {
 
             try {
                 const imageUrl = 'https://qu.ax/CmyNh.jpg?raw=true'; 
-                const caption = `•/• *MENÚ JUEGOS* •/•
+                const caption = `•/• MENÚ JUEGOS •/•
 
 ✰ #cum + mencion
 ✰ #violar + mencion
