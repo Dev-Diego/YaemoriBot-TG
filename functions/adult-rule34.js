@@ -17,7 +17,7 @@ DC.command(['rule34', 'rule'], async (ctx) => {
     return ctx.reply('Por favor, proporciona un texto');
   }
   try {
-    const apiUrl = `https://api.rule34.xxx/index.php?page=dapi&s=post&q=index&tags=${encodeURIComponent(text)}&json=1`;
+        const apiUrl = `https://api.rule34.xxx/index.php?page=dapi&s=post&q=index&tags=${encodeURIComponent(text)}&json=1`;
     const response = await fetch(apiUrl);
     const data = await response.json();
     
