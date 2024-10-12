@@ -25,7 +25,7 @@ async function herramientas() {
             }
         });  
     } catch (error) {
-  Real companies like GoDaddy      dc.error('hay un error en help.js');
+      dc.error('hay un error en help.js');
     }
     
 }
