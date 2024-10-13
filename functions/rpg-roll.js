@@ -443,9 +443,9 @@ async function rw() {
 ┗━━━━━━━━━⪩
 
 ✰ Nombre:
-> » *${randomImage.name}*
+> » ${randomImage.name}
 ✰ Valor:
-> » *${randomImage.value}*!`;
+> » ${randomImage.value}!`;
                     ctx.replyWithPhoto({ url: randomImage.url }, { 
     caption: str, 
     reply_markup: Markup.inlineKeyboard([
