@@ -22,7 +22,7 @@ const date = d.toLocaleDateString(locale, {day: 'numeric', month: 'long', year: 
 const userCount = Object.keys(userData).length;
 async function loading(ctx, response) {
     const hawemod = [
-        "🌸 Enviando el menú... 👑"
+        "Pronto se remitirá el menú 🚀"
     ];
     
    const message = await ctx.reply('Aguarde', { mentions: ctx.message });
