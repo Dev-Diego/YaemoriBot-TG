@@ -21,14 +21,14 @@
 <details>
  <summary><b> 🚩 Donde Instalo El Bot? </b></summary>
 
-> 🌺 Para instalar el bot te invito que uses el hosting **`CorinPlus Host`** el hosting es 100% confiable que esperas para usarlo?, unete ya a nuestra comunidad!!! 🌸
+> 🌺 Para instalar el bot te invito que uses el hosting **`SkyUltraPlus Host`** el hosting es 100% confiable que esperas para usarlo?, unete ya a nuestra comunidad!!! 🌸
 
 </details>
 
 <details>
  <summary><b> 🚩 Instalación </b></summary>
 
-> 🌺 Si instalas el bot en hosting como CorinPlus, o CodeSpace ve al archivo .env y cambia el token actual que está al token que te da el BotFather en Telegram. 🌸
+> 🌺 Si instalas el bot en hosting como SkyUltraPlus, o CodeSpace ve al archivo .env y cambia el token actual que está al token que te da el BotFather en Telegram. 🌸
 
 > 🔥 Ejemplo: En este caso está: 
 
